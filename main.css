@@ -1,157 +1,204 @@
 body {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 
 header {
-	padding: 20px 0;
+  padding: 20px 0;
 }
 
 header .row,
 footer .row {
-	display: flex;
-	align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 header h1 {
-	font-weight: 700;
-	margin: 0;
+  font-weight: 700;
+  margin: 0;
 }
 
 header nav {
-	display: flex;
-	justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 
 header p {
-	padding: 0 20px;
-	margin: 0;
+  padding: 0 20px;
+  margin: 0;
+}
+#myInitials {
+  font-size: 32px;
+  font-family:Snell Roundhand ;
+}
+.topthreeparagraphs{
+  color: #FFFFF;
+}
+#AboutMe{
+   font-size: 35px;
+  color: #000000;
+  font-weight: bold;
+    font-family:cursive ;
+
+}
+#bio{
+   font-size: 25px;
+  color: #000000;
+   font-family:arial ;
+  
+}
+#thing1{
+   font-size: 20px;
+  color: #000000;
+     font-family:arial ;
+
 }
 
-#myName {
-	font-size: 32px;
+#thing2{
+   font-size: 20px;
+  color: #000000;
+     font-family:arial ;
+
+}
+#thing3{
+   font-size: 20px;
+  color: #000000;
+     font-family:arial ;
+
+}
+#thing4{
+   font-size: 20px;
+  color: #000000;
+     font-family:arial ;
+
+}
+#thing5{
+   font-size: 20px;
+  color: #000000;
+     font-family:arial ;
+
+}
+#thing2{
+  font-size: 20px;
+  color: #000000;
+   font-family:arial ;
+
+}
+#thing6{
+  font-size: 20px;
+  color: #000000;
+     font-family:arial ;
+
 }
 
-.topthreeparagraphs {
-	color: #000FFF;
+#favshows{
+  font-weight: bold;
+  font-family: arial;  
 }
-
-#firstfav {
-	font-size: 25px;
-	font-weight: 555;
-	color: #000000;
-	text-align: center;
+#firstshow{
+  color: #6495ED;
+	font-size: 20px;
+  font-family:arial;
 }
-
-#secondfav {
-	font-size: 30px;
-	font-weight: 550;
-	color: #87CEEB;
-	text-align: center;
+#secondshow{
+  color: #FF69B4;
+	font-size: 20px;
+  font-family:arial;
+  
 }
-
-#thirdfav {
-	font-size: 35px;
-	font-weight: 600;
-	color: #3CB371;
-	text-align: center;
+#thirdshow{
+  color: #8B0000;
+	font-size: 20px;
+  font-family:arial;
+  
 }
-
-#fourthfav {
-	font-size: 37px;
-	font-weight: 650;
-	color: #DC143C;
-	text-align: center;
+#fourshow{
+  color: #800080;
+	font-size: 20px;
+  font-family:arial;
+  
 }
-
-#quotes {
-	font-weight: bold;
-	text-align: center;
+#fiveshow{
+  color: #FFA500;
+	font-size: 20px;
+  font-family:arial;
+  
 }
-
-#firstquote {
-	color: #6495ED;
-	font-size: 25px;
-	font-family: arial;
-}
-
-#secondquote {
-	color: #FF69B4;
-	font-size: 18px;
-	font-family: courier;
-}
-
-#thirdquote {
-	color: #8B0000;
-	font-size: 16px;
-	font-family: times;
+#sixshow{
+  color: #008000;
+	font-size: 20px;
+  font-family:arial;
+  
 }
 
 .jumbotron {
-	display: flex;
-	align-items: center;
-	background-image: url('https://ssl.cdn-redfin.com/photo/45/mbpaddedwide/680/genMid.PW15164680_1.jpg');
-	background-size: cover;
-	color: #ffffff;
-	height: 500px;
-	text-shadow: 0.25px 0.25px 0.25px #000000;
+  display: flex;
+  align-items: center;
+  background-image: url('https://ak4.picdn.net/shutterstock/videos/5039324/thumb/1.jpg');
+  background-size: cover;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
 .jumbotron h2 {
-	font-size: 60px;
-	font-weight: 700;
-	margin: 0;
-	color: #fff;
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #000000;
+  font-family:Snell Roundhand;
 }
 
 .jumbotron h3 {
-	margin: 0 0 20px;
-	color: #fff;
+  margin: 0 0 20px;
+  color: #000000;
 }
 
 section .row img {
-	margin: 0 0 30px;
-	width: 100%;
+  margin: 0 0 30px;
+  width: 100%;
 }
 
 .col-md-6 {
-	margin: 0 0 30px;
+  margin: 0 0 30px;
 }
 
 .btn.btn-primary {
-	border-radius: 2px;
-	border: 0px;
-	color: #fbd1d5;
-	text-shadow: none;
-	background-color: #ffffff;
+  border-radius: 2px;
+  border: 0px;
+  color: #fbd1d5;
+  text-shadow: none;
+  background-color: #ffffff;
 }
 
 .btn.btn-primary:hover {
-	color: #ffffff;
-	background-color: #fbd1d5;
+  color: #ffffff;
+  background-color: #fbd1d5;
 }
 
 .btn-secondary {
-	background-color: #E8DFE0;
-	color: #ffffff;
-	margin: 0 0 30px;
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
 }
 
 footer {
-	font-size: 12px;
-	padding: 20px 0;
+  font-size: 12px;
+  padding: 20px 0;
 }
 
 footer .col-sm-8 {
-	display: flex;
-	justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 
 footer ul {
-	list-style: none;
+  list-style: none;
 }
 
 footer li img {
-	width: 32px;
-	height: 32px;
+  width: 32px;
+  height: 32px;
 }
+
+
